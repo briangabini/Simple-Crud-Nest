@@ -1,5 +1,8 @@
 import { createApp } from 'vue'
-import './style.css'
+// import the root component App from a single-file component.
 import App from './App.vue'
+import './style.css'
 
-createApp(App).mount('#app')
+const app = createApp(App)
+app.mount('#app')
+
